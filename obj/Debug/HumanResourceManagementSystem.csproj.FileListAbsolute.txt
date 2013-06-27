@@ -1,0 +1,28 @@
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\bin\Debug\HumanResourceManagementSystem.exe
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\bin\Debug\HumanResourceManagementSystem.pdb
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.Login.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.Properties.Resources.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.csproj.GenerateResource.Cache
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.exe
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.pdb
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.HRDepartment.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.AddAttendanceDetails.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.AttendanceDetails.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.HRAddNewEmployee.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.HREmployeeDetail.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.HREmployeeSearch.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.LeaveRequestForm.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.RestoreEmployeeDetails.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.ViewLeaveRequest.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.SearchSalaryDetails.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.ViewAttendanceReport.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.SalaryReportofEmployee.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.SalarySlip.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.CalcSalary.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.EmployeeSalaryAgreement.resources
+C:\Documents and Settings\Abu\Desktop\2008\HumanResourceManagementSystem\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.UpdateSalaryAgreement.resources
+C:\Documents and Settings\Abu\Desktop\Code\2008\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.exe
+C:\Documents and Settings\Abu\Desktop\Code\2008\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.pdb
+D:\Comdex\Project Book\C# Project Book\CD\Projects\C# 2008\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.exe
+D:\Comdex\Project Book\C# Project Book\CD\Projects\C# 2008\HumanResourceManagementSystem\obj\Debug\HumanResourceManagementSystem.pdb

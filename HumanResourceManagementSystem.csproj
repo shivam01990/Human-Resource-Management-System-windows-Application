@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83F3BE5D-2EB3-4390-A9D4-66E98F532545}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HumanResourceManagementSystem</RootNamespace>
+    <AssemblyName>HumanResourceManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAttendanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAttendanceDetails.Designer.cs">
+      <DependentUpon>AddAttendanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceDetails.Designer.cs">
+      <DependentUpon>AttendanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendancereport.cs">
+      <DependentUpon>Attendancereport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CalcSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalcSalary.Designer.cs">
+      <DependentUpon>CalcSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSalaryAgreement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSalaryAgreement.Designer.cs">
+      <DependentUpon>EmployeeSalaryAgreement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalClass.cs" />
+    <Compile Include="HRAddNewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HRAddNewEmployee.Designer.cs">
+      <DependentUpon>HRAddNewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HRDepartment.Designer.cs">
+      <DependentUpon>HRDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HREmployeeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HREmployeeDetail.Designer.cs">
+      <DependentUpon>HREmployeeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HREmployeeSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HREmployeeSearch.Designer.cs">
+      <DependentUpon>HREmployeeSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveRequestForm.Designer.cs">
+      <DependentUpon>LeaveRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddAttendanceDetails.resx">
+      <DependentUpon>AddAttendanceDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceDetails.resx">
+      <DependentUpon>AttendanceDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendancereport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Attendancereport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalcSalary.resx">
+      <DependentUpon>CalcSalary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSalaryAgreement.resx">
+      <DependentUpon>EmployeeSalaryAgreement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRAddNewEmployee.resx">
+      <DependentUpon>HRAddNewEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRDepartment.resx">
+      <DependentUpon>HRDepartment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HREmployeeDetail.resx">
+      <DependentUpon>HREmployeeDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HREmployeeSearch.resx">
+      <DependentUpon>HREmployeeSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveRequestForm.resx">
+      <DependentUpon>LeaveRequestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreEmployeeDetails.resx">
+      <DependentUpon>RestoreEmployeeDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryOfIndividual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryOfIndividual.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryReportofEmployee.resx">
+      <DependentUpon>SalaryReportofEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalarySlip.resx">
+      <DependentUpon>SalarySlip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchSalaryDetails.resx">
+      <DependentUpon>SearchSalaryDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSalaryAgreement.resx">
+      <DependentUpon>UpdateSalaryAgreement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAttendanceReport.resx">
+      <DependentUpon>ViewAttendanceReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewLeaveRequest.resx">
+      <DependentUpon>ViewLeaveRequest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RestoreEmployeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreEmployeeDetails.Designer.cs">
+      <DependentUpon>RestoreEmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryOfIndividual.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryOfIndividual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalaryReportofEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalaryReportofEmployee.Designer.cs">
+      <DependentUpon>SalaryReportofEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalarySlip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalarySlip.Designer.cs">
+      <DependentUpon>SalarySlip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchSalaryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchSalaryDetails.Designer.cs">
+      <DependentUpon>SearchSalaryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSalaryAgreement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSalaryAgreement.Designer.cs">
+      <DependentUpon>UpdateSalaryAgreement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAttendanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAttendanceReport.Designer.cs">
+      <DependentUpon>ViewAttendanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLeaveRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewLeaveRequest.Designer.cs">
+      <DependentUpon>ViewLeaveRequest.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
